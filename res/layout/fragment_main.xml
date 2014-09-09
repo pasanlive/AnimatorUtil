@@ -12,7 +12,8 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/hello_world"
+        android:visibility="invisible" />
 
     <TextView
         android:id="@+id/textView2"
@@ -21,7 +22,8 @@
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="20dp"
-        android:text="TextView" />
+        android:text="TextView" 
+        android:visibility="invisible"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -30,7 +32,8 @@
         android:layout_alignLeft="@+id/textView2"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="27dp"
-        android:text="TextView" />
+        android:text="TextView"
+        android:visibility="invisible" />
 
     <TextView
         android:id="@+id/textView4"
@@ -40,6 +43,7 @@
         android:layout_below="@+id/textView3"
         android:layout_marginTop="44dp"
         android:text="Large Text"
+        android:visibility="invisible"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
@@ -49,7 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView4"
         android:layout_centerVertical="true"
-        android:text="Button" />
+        android:text="Button"
+        android:visibility="invisible" />
 
     <Button
         android:id="@+id/button2"
@@ -59,6 +64,7 @@
         android:layout_alignBaseline="@+id/button1"
         android:layout_alignBottom="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:text="Button" />
+        android:text="Button"
+        android:visibility="invisible" />
 
 </RelativeLayout>
